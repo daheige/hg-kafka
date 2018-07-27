@@ -41,7 +41,7 @@
     # the port at which the clients will connect
     clientPort=2181
 
-    启动zookeeper
+# 启动zookeeper
     /usr/local/zookeeper/bin/zkServer.sh start
     查看2181端口
     yum install telnet
