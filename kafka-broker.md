@@ -36,6 +36,11 @@
 
     # The maximum size of a request that the socket server will accept (protection against OOM)
     socket.request.max.bytes=104857600 #最大请求字节
+    #每个日志片段大小
+    log.segment.bytes=1073741824
+
+    #日志分区大小
+    #log.retention.bytes=1073741824
 
 
 # 配置zookeeper
